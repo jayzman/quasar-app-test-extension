@@ -1,0 +1,10 @@
+{
+  "ext-quasar-auth": {
+    "baseUrl": "http://127.0.0.1:3000",
+    "authenticationScheme": "Bearer",
+    "identifierField": "username",
+    "verificationRoute": "/auth/verify",
+    "loginRoute": "/auth/login",
+    "fetchUserRoute": "/auth/user"
+  }
+}

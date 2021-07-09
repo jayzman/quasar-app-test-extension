@@ -8,11 +8,11 @@ declare module 'vue/types/vue' {
   }
 }
 
-const axiosInstance = axios.create({
+const axiosInstance: AxiosInstance = axios.create({
   paramsSerializer: params => {
     return qs.stringify(params, { arrayFormat: 'repeat' })
   },
-  baseURL: 'http://127.0.0.1:3000'
+  baseURL: "http://localhost:8081/api"
 })
 
 const setErrorInterceptor = (errorFunction: () => void) => {
