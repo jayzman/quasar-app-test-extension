@@ -10,6 +10,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "@jayzman/ext-quasar-auth": "^1.0.0",
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
     "quasar": "^2.0.0"
@@ -17,12 +18,11 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
     "@quasar/app": "^3.0.0",
-    "@zo/quasar-app-extension-ext-quasar-auth": "file:D:\\app-extension-login\\my-ext-auth\\ext-quasar-auth",
-    "@zo/quasar-app-extension-my-ext-auth": "file:D:\\app-extension-login\\my-ext-auth\\ext-quasar-auth",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^7.0.0",
-    "eslint-webpack-plugin": "^2.4.0"
+    "eslint-webpack-plugin": "^2.4.0",
+    "quasar-app-extension-ext-quasar-auth": "^1.0.0"
   },
   "browserslist": [
     "last 10 Chrome versions",
